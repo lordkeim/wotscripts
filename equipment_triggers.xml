@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<TriggerPackage>
+		<TriggerGroup isActive="no" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>Equipment Triggers</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Weapon - Spears</name>
+				<script>weapon="spear"</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>&lt;wielded two-handed&gt;\s+a dark blue tasseled spear </string>
+					<string>&lt;wielded two-handed&gt;\s+a gold-chased war spear</string>
+					<string>&lt;wielded two-handed&gt;\s+a shocklance</string>
+					<string>&lt;wielded two-handed&gt;\s+a jade shafted partisan</string>
+					<string>&lt;wielded two-handed&gt;\s+a heathstone tipped spear</string>
+					<string>&lt;wielded two-handed&gt;\s+a sinister black trident</string>
+					<string>&lt;wielded two-handed&gt;\s+a langdebeve</string>
+					<string>&lt;wielded two-handed&gt;\s+a large steel spear</string>
+					<string>&lt;wielded&gt;\s+a partisan bearing the arms of Ghealdan</string>
+					<string>&lt;wielded&gt;\s+a sleek, mahogany-shafted spear</string>
+					<string>&lt;wielded&gt;\s+a fork-headed spear</string>
+					<string>&lt;wielded&gt;\s+a winged spear with silver etching</string>
+					<string>&lt;wielded&gt;\s+a steel bladed spontoon</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Worn on Belt - Flask</name>
+				<script>skin="flask"</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>&lt;worn on belt&gt;\s+a leather water flask</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Weapons - Swords</name>
+				<script>weapon="sword"</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>&lt;wielded two-handed&gt;\s+a great claymore </string>
+					<string>&lt;wielded two-handed&gt;\s+a heron marked blade with a jeweled hilt </string>
+					<string>&lt;wielded two-handed&gt;\s+a wickedly scythed longsword</string>
+					<string>&lt;wielded two-handed&gt;\s+a pair of gold-hilted hooked swords</string>
+					<string>&lt;wielded two-handed&gt;\s+a heron marked greatsword </string>
+					<string>&lt;wielded two-handed&gt;\s+a gargantuan gilded bastard sword</string>
+					<string>&lt;wielded two-handed&gt;\s+a colossal sword with an iron pommel</string>
+					<string>&lt;wielded two-handed&gt;\s+a gleaming black longsword</string>
+					<string>&lt;wielded two-handed&gt;\s+a jagged edged warsword</string>
+					<string>&lt;wielded&gt;\s+a pale steel longsword</string>
+					<string>&lt;wielded&gt;\s+a heron marked longsword</string>
+					<string>&lt;wielded&gt;\s+the ancient greatsword Justice</string>
+					<string>&lt;wielded&gt;\s+an oddly curved longsword</string>
+					<string>&lt;wielded&gt;\s+razor sharp longsword</string>
+					<string>&lt;wielded&gt;\s+a scimitar with a hilt of twisted iron</string>
+					<string>&lt;wielded&gt;\s+an ivory and gold-hilted longsword</string>
+					<string>&lt;wielded&gt;\s+a brass hilted general's sword</string>
+					<string>&lt;wielded&gt;\s+a heron-marked foil</string>
+					<string>&lt;wielded&gt;\s+an opal adorned steel tulwar</string>
+					<string>&lt;wielded&gt;\s+a pearl-handled sabre</string>
+					<string>&lt;wielded&gt;\s+a feathered kandori paramerion</string>
+					<string>&lt;wielded&gt;\s+a ruby-worked rapier</string>
+					<string>&lt;wielded&gt;\s+an emerald-hilted foil</string>
+					<string>&lt;wielded&gt;\s+the Sword of Kirukan</string>
+					<string>&lt;wielded&gt;\s+a heron marked blade</string>
+					<string>&lt;wielded&gt;\s+a gleaming blacksword</string>
+					<string>&lt;wielded&gt;\s+a nimble blade with cuendillar pommel</string>
+					<string>&lt;wielded&gt;\s+a razored falcata</string>
+					<string>&lt;wielded&gt;\s+a shining silver plated sword</string>
+					<string>&lt;wielded&gt;\s+a bone-handled blade</string>
+					<string>&lt;wielded&gt;\s+a blue steel scimitar</string>
+					<string>&lt;wielded&gt;\s+a black sword</string>
+					<string>&lt;wielded&gt;\s+a plain, slighty curved blade</string>
+					<string>&lt;wielded&gt;\s+a blade of blazing flame</string>
+					<string>&lt;wielded&gt;\s+an amber hilted iron sword</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>0</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Worn on Belt - Skin</name>
+				<script>skin="skin"</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>&lt;worn on belt&gt;\s+a water skin</string>
+					<string>&lt;worn on belt&gt;\s+a skin of human flesh</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Weapon - Axes</name>
+				<script>weapon="axe"</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>&lt;wielded two-handed&gt;\s+a pair of long-handled war axes</string>
+					<string>&lt;wielded two-handed&gt;\s+a titanic spiked axe of ebon steel</string>
+					<string>&lt;wielded two-handed&gt;\s+an enormous double-bladed battleaxe</string>
+					<string>&lt;wielded two-handed&gt;\s+a bronze headed war axe</string>
+					<string>&lt;wielded two-handed&gt;\s+a double axe with long black haft</string>
+					<string>&lt;wielded two-handed&gt;\s+a long hafted axe with a gold-inlaid head</string>
+					<string>&lt;wielded two-handed&gt;\s+a dark, grim axe</string>
+					<string>&lt;wielded two-handed&gt;\s+Malfeasor, the twin bladed scythe of blood ebony</string>
+					<string>&lt;wielded two-handed&gt;\s+a cleaver of steel</string>
+					<string>&lt;wielded two-handed&gt;\s+Blight Killer</string>
+					<string>&lt;wielded&gt;\s+the Hatchet of Hawkwing</string>
+					<string>&lt;wielded&gt;\s+a wicked knife bladed axe</string>
+					<string>&lt;wielded&gt;\s+a crimson-hafted battleaxe</string>
+					<string>&lt;wielded&gt;\s+a saw-toothed axe</string>
+					<string>&lt;wielded&gt;\s+a finely crafted axe</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Weapon - Clubs</name>
+				<script>weapon="club"</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>&lt;wielded two-handed&gt;\s+a s'redit prod</string>
+					<string>&lt;wielded two-handed&gt;\s+a bone-crushing mattock</string>
+					<string>&lt;wielded two-handed&gt;\s+a spiked double handed warhammer</string>
+					<string>&lt;wielded two-handed&gt;\s+a silver-banded war mallet</string>
+					<string>&lt;wielded two-handed&gt;\s+a tainted war maul </string>
+					<string>&lt;wielded two-handed&gt;\s+a massive war maul</string>
+					<string>&lt;wielded&gt;\s+a steel warhammer</string>
+					<string>&lt;wielded&gt;\s+a metal banded cudgel</string>
+					<string>&lt;wielded&gt;\s+a bone club</string>
+					<string>&lt;wielded&gt;\s+a razor studded mace</string>
+					<string>&lt;wielded&gt;\s+a steel flanged mace</string>
+					<string>&lt;wielded&gt;\s+a steel-thorned whip</string>
+					<string>&lt;wielded&gt;\s+a war hammer</string>
+					<string>&lt;wielded&gt;\s+a heavy club</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Weapon - Javelins</name>
+				<script>weapon="javelin"</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>&lt;wielded&gt;\s+a long pine javelin</string>
+					<string>&lt;wielded&gt;\s+a long, barbed javelin</string>
+					<string>&lt;wielded two-handed&gt;\s+a dark oak javelin</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Weapon - Staff</name>
+				<script>weapon="staff"</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>&lt;wielded two-handed&gt;\s+a staff of sungwood</string>
+					<string>&lt;wielded two-handed&gt;\s+a bladed feather staff</string>
+					<string>&lt;wielded two-handed&gt;\s+a leatherleaf staff</string>
+					<string>&lt;wielded two-handed&gt;\s+an ironshod staff of oak</string>
+					<string>&lt;wielded two-handed&gt;\s+an obsidian encrusted sungwood staff</string>
+					<string>&lt;wielded&gt;\s+Laman's Folly, the spiraled staff of Avendoraldera</string>
+					<string>&lt;wielded&gt;\s+a yew staff</string>
+					<string>&lt;wielded&gt;\s+a walking staff</string>
+					<string>&lt;wielded&gt;\s+a spirling snakewood staff</string>
+					<string>&lt;wielded&gt;\s+a staff of iridescent blue</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Pack</name>
+				<script>container="pack"</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>^&lt;slung on back&gt;\s+a backpack$</string>
+					<string>^&lt;worn on belt&gt;\s+a belt pack</string>
+					<string>^&lt;slung on back&gt;\s+an embroidered, cotton shoulder bag$</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Weapon - Polearms</name>
+				<script>weapon="polearm"</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>&lt;wielded two-handed&gt;\s+a long halberd </string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+		</TriggerGroup>
+	</TriggerPackage>
+</MudletPackage>
